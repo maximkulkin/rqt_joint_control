@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rqt_joint_control</name>
+  <version>0.1.0</version>
+  <description>UI to control ros_control joints</description>
+
+  <maintainer email="maxim.kulkin@gmail.com">Maxim Kulkin</maintainer>
+  <author email="maxim.kulkin@gmail.com">Maxim Kulkin</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>controller_manager_msgs</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+
+  <depend>python</depend>
+  <exec_depend>python-lxml</exec_depend>
+
+  <export>
+      <rqt_gui plugin="${prefix}/plugin.xml" />
+  </export>
+</package>

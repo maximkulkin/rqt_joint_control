@@ -1,0 +1,17 @@
+<library path="src">
+  <class name="JointControlPlugin" type="rqt_joint_control.gui.JointControlPlugin"
+         base_class_type="rqt_gui_py::Plugin">
+    <description>
+        Visual interface for controlling joints through controller_manager.
+    </description>
+    <qtgui>
+      <group>
+        <label>Robot Tools</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to robot tools</statustip>
+      </group>
+      <label>Joint Control</label>
+      <statustip>Control ros_control joints</statustip>
+    </qtgui>
+  </class>
+</library>
